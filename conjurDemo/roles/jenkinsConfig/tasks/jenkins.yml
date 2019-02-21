@@ -37,6 +37,7 @@
      - "conjur_cert:/conjur_cert"
      - "hostfactoryTokens:/hostfactoryTokens"
      - "identity:/identity"
+     - "/etc/tower/tower_cli.cfg:/etc/tower/tower_cli.cfg"
     restart_policy: always
     recreate: yes
 
