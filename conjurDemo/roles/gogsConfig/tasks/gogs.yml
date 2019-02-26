@@ -25,8 +25,6 @@
   template:
     src: "{{ role_path }}/files/LAB3_AnsibleStopContainers/Jenkinsfile.template"
     dest: "{{ role_path }}/files/LAB3_AnsibleStopContainers/Jenkinsfile"
-    attributes:
-      - ansible_external_url: "{{ ansible_external_url }}"
 
 - name: Configure gogs
   shell: |
